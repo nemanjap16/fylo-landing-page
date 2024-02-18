@@ -1,0 +1,40 @@
+header {
+  padding: 0 80px;
+  padding-top: 65px;
+}
+
+.primary-nav,
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  list-style: none;
+  cursor: pointer;
+  gap: 57px;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 660px) {
+  header {
+    padding: 0px 44px;
+    padding-top: 24px;
+  }
+
+  .nav-logo {
+    width: 80px;
+  }
+
+  .nav-list {
+    gap: 24px;
+  }
+
+  .nav-link {
+    font-size: 12px;
+  }
+}
