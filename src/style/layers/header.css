@@ -12,7 +12,7 @@ header {
 
 .nav-list {
   list-style: none;
-  cursor: pointer;
+  color: var(--very-dark-blue);
   gap: 57px;
 }
 

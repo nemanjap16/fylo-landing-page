@@ -11,7 +11,7 @@
     <meta name="keywords" content="HTML, CSS, Typescript" />
     <meta name="author" content="nemanjap16" />
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
-    <script type="module" src="/src/main.ts" defer></script>
+    <script defer type="module" src="/src/main.ts"></script>
   </head>
   <body>
     <header>
@@ -20,20 +20,68 @@
           <img class="img-logo" src="./assets/images/logo.svg" alt="Logo" />
         </div>
         <ul class="nav-list">
-          <li class="nav-link">Features</li>
-          <li class="nav-link">Team</li>
-          <li class="nav-link">Sign In</li>
+          <li class="nav-link">
+            <a aria-label="Link to the Features section" href="#features"
+              >Features</a
+            >
+          </li>
+          <li class="nav-link">
+            <a aria-label="Link to the Team section" href="#team">Team</a>
+          </li>
+          <li class="nav-link">
+            <a aria-label="Link to the Sign In section" href="#signin"
+              >Sign In</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
     <main class="h-padding-1">
-      <section class="hero"></section>
+      <!-- section one - hero -->
+      <section class="hero">
+        <div class="col-1">
+          <h1 class="hero-title">
+            All your files in one secure<br />
+            location, accessible anywhere.
+          </h1>
+          <p class="hero-text">
+            Fylo stores your most important files in one secure location.
+            Access<br />
+            them wherever you need, share and collaborate with friends,
+            family,<br />
+            and co-workers.
+          </p>
+          <form id="hero-form" action="/" method="GET" class="cta-container">
+            <div class="input-wrapper">
+              <input
+                type="email"
+                name="email"
+                id="hero-input"
+                placeholder="johnappleseed@mail.com"
+                autocomplete="off"
+              />
+              <span class="error-msg">Please check your email</span>
+            </div>
+            <button
+              id="hero-button"
+              class="submit-button"
+              type="submit"
+              title="Send email"
+            >
+              Get Started
+            </button>
+          </form>
+        </div>
+        <div class="col-2">
+          <img src="./assets/images/illustration-1.svg" alt="Hero image" />
+        </div>
+      </section>
+      <!-- section two - productivity -->
+      <section style="height: 500px" class="productivity"></section>
     </main>
+    <footer></footer>
     <!-- <div>
-      Features Team Sign In All your files in one secure location, accessible
-    anywhere. Fylo stores your most important files in one secure location.
-    Access them wherever you need, share and collaborate with friends, family,
-    and co-workers. Get Started Stay productive, wherever you are Never let
+    Get Started Stay productive, wherever you are Never let
     location be an issue when accessing your files. Fylo has you covered for all
     of your file storage needs. Securely share files and folders with friends,
     family and colleagues for live collaboration. No email attachments required!

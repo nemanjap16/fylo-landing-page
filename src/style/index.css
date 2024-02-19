@@ -1,6 +1,8 @@
 @import url(./reset.css);
-@import url(./spacing.css);
-@import url(./header.css);
+@import url(./utilities/spacing.css);
+@import url(./layers/header.css);
+@import url(./layers/hero.css);
+@import url(./components/button.css);
 
 @font-face {
   font-family: "Open Sans";
@@ -30,6 +32,9 @@
   /* Neutral */
   --light-grayish-blue: hsl(240, 75%, 98%);
   --light-gray: hsl(0, 0%, 75%);
+
+  /* Error */
+  --error-color: hsl(348, 83%, 47%);
 }
 
 body {
@@ -42,7 +47,7 @@ body {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 h1,
@@ -66,4 +71,10 @@ header,
 nav {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
