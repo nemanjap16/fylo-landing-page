@@ -1,14 +1,18 @@
 @import url(./reset.css);
-@import url(./utilities/spacing.css);
+@import url(./utilities/util.css);
+/* layers */
 @import url(./layers/header.css);
 @import url(./layers/hero.css);
+@import url(./layers/productivity.css);
+@import url(./layers/access.css);
+/* components */
 @import url(./components/button.css);
 
 @font-face {
   font-family: "Open Sans";
   src: url("@fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf");
   font-style: normal;
-  font-weight: 400 700;
+  font-weight: 400 500 700;
   font-display: swap;
 }
 

@@ -1,0 +1,33 @@
+.access {
+  background-color: var(--desaturated-blue);
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.access-form {
+  height: 140px;
+  padding: 15px 43px 0px 120px;
+  justify-content: space-between;
+}
+
+#access-input {
+  padding: 0px 20px;
+  height: 50px;
+  font-size: 14px;
+}
+
+.access-title {
+  font-size: 32px;
+  margin-bottom: 14px;
+}
+
+.access-text {
+  line-height: 26px;
+  width: 80%;
+}
+
+@media only screen and (max-width: 1440px) {
+}
+
+@media only screen and (max-width: 660px) {
+}

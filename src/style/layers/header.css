@@ -22,7 +22,7 @@ header {
 
 @media only screen and (max-width: 660px) {
   header {
-    padding: 0px 44px;
+    padding: 0px 24px;
     padding-top: 24px;
   }
 

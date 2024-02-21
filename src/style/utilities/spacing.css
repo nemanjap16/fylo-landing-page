@@ -1,9 +1,0 @@
-.h-padding-1 {
-  padding: 0% 77px;
-}
-
-@media only screen and (max-width: 660px) {
-  .h-padding-1 {
-    padding: 0% 44px;
-  }
-}

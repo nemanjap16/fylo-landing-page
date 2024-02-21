@@ -1,0 +1,140 @@
+.productivity {
+  height: fit-content;
+  background-color: var(--light-grayish-blue);
+  padding-bottom: 100px;
+}
+
+.product-col-1 {
+  width: 52%;
+  min-width: 620px;
+}
+
+.product-col-2 {
+  width: 48%;
+  min-width: 510px;
+  padding: 0px 0px 42px 73px;
+}
+
+.product-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--very-dark-blue);
+  margin-bottom: 30px;
+}
+
+.prod-text-wrapper p:first-child {
+  margin-bottom: 14px;
+}
+
+.prod-text-wrapper p:nth-child(2) {
+  margin-bottom: 15px;
+}
+
+.product-link-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid var(--moderate-cyan);
+  width: fit-content;
+}
+
+.product-link {
+  color: var(--moderate-cyan);
+}
+
+.product-link:hover {
+  font-weight: 600;
+}
+
+.testimonial {
+  background-color: #fff;
+  max-width: 355px;
+  width: 100%;
+  padding: 33px 37px;
+  border-radius: 4px;
+  margin-top: 45px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.testimonial-header {
+  padding-bottom: 7px;
+}
+
+.testimonial-header > svg {
+  color: var(--very-dark-blue);
+}
+
+.testimonial-body {
+  color: var(--very-dark-blue);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.testimonial-footer {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+/* .avatar-info {
+} */
+
+.avatar-name {
+  font-size: 12px;
+}
+
+.avatar-role {
+  font-size: 9px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .product-title {
+    text-wrap: balance;
+  }
+  .product-wrapper {
+    text-align: center;
+  }
+
+  .prod-text-wrapper {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  .product-link-wrapper {
+    margin: 0 auto;
+  }
+
+  .testimonial {
+    margin: 0 auto;
+    margin-top: 45px;
+    text-align: left;
+  }
+
+  .product-col-2 {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .product-title {
+    font-size: 18px;
+  }
+
+  .testimonial {
+    text-wrap: balance;
+  }
+
+  .product-col-1 {
+    min-width: fit-content;
+  }
+
+  .product-col-2 {
+    min-width: fit-content;
+  }
+}
