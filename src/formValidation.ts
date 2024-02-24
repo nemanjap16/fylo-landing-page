@@ -54,7 +54,6 @@ heroForm.addEventListener("click", (e: MouseEvent) => {
 
   const target = e.target as HTMLButtonElement;
   showError(target.id);
-  console.log(target.id);
 });
 
 // access form
@@ -64,5 +63,4 @@ accessForm.addEventListener("click", (e: MouseEvent) => {
 
   const target = e.target as HTMLButtonElement;
   showError(target.id);
-  console.log(target.id);
 });

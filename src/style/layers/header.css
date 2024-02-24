@@ -18,6 +18,11 @@ header {
 
 .nav-link {
   font-size: 16px;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: var(--bright-blue);
 }
 
 @media only screen and (max-width: 660px) {
