@@ -4,6 +4,14 @@
   padding-bottom: 80px;
 }
 
+.access-col-1 {
+  min-width: 440px;
+}
+
+.access-col-2 {
+  min-width: 440px;
+}
+
 .access-form {
   height: 140px;
   padding: 15px 43px 0px 120px;
@@ -26,8 +34,46 @@
   width: 80%;
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1040px) {
+  .access {
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+  }
+
+  .access-col-1 {
+    text-align: center;
+  }
+
+  .access-text {
+    margin: 0% auto;
+  }
+
+  #access-button {
+    width: 100%;
+  }
+
+  .access-form {
+    padding: 15px 43px 0px 43px;
+  }
 }
 
 @media only screen and (max-width: 660px) {
+  .access-col-1 {
+    max-width: 100%;
+    min-width: fit-content;
+  }
+
+  .access-col-2 {
+    max-width: 100%;
+    min-width: fit-content;
+  }
+
+  .access-title {
+    font-size: 18px;
+  }
+
+  .access-text {
+    font-size: 14px;
+  }
 }

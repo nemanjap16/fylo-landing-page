@@ -24,10 +24,12 @@ const showError = (id: string) => {
     if (heroInput.value.match(validEmail)) {
       error.hidden = true;
       alert("Message sent!");
+      heroInput.classList.remove("invalid");
       heroForm.reset();
     } else if (heroInput.value.length == 0) {
       error.hidden = false;
       alert("Invalid email!");
+      heroInput.classList.add("invalid");
     }
   }
 
@@ -35,10 +37,12 @@ const showError = (id: string) => {
     if (accessInput.value.match(validEmail)) {
       errorAccess.hidden = true;
       alert("Message sent!");
+      accessInput.classList.remove("invalid");
       accessForm.reset();
     } else if (accessInput.value.length == 0) {
       errorAccess.hidden = false;
       alert("Invalid email!");
+      accessInput.classList.add("invalid");
     }
   }
 };
@@ -47,6 +51,7 @@ const showError = (id: string) => {
 heroForm.addEventListener("click", (e: MouseEvent) => {
   e.preventDefault();
   e.stopPropagation();
+
   const target = e.target as HTMLButtonElement;
   showError(target.id);
   console.log(target.id);
@@ -56,6 +61,7 @@ heroForm.addEventListener("click", (e: MouseEvent) => {
 accessForm.addEventListener("click", (e: MouseEvent) => {
   e.preventDefault();
   e.stopPropagation();
+
   const target = e.target as HTMLButtonElement;
   showError(target.id);
   console.log(target.id);

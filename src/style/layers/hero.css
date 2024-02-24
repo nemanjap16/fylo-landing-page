@@ -63,16 +63,16 @@
     width: 100%;
   }
 
-  .invalid {
-    border: 1px solid crimson;
-  }
-
   #hero-button {
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 660px) {
+  .hero {
+    padding-bottom: 120px;
+  }
+
   .hero-col-1 {
     min-width: fit-content;
   }

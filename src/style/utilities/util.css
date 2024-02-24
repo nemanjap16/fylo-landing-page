@@ -7,7 +7,6 @@
 /* TYPOGRAPHY */
 
 .error-msg {
-  color: var(--error-color);
   font-size: 12px;
 }
 
@@ -60,6 +59,18 @@
 }
 
 /* GRID */
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-20 {
+  gap: 20px;
+}
 
 .flex-row {
   display: flex;

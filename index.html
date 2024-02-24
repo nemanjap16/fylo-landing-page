@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./images/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./assets/images/favicon-32x32.png"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
@@ -60,7 +64,7 @@
                 placeholder="johnappleseed@mail.com"
                 autocomplete="off"
               />
-              <span id="hero-error" class="error-msg"
+              <span id="hero-error" class="error-msg error-color"
                 >Please check your email</span
               >
             </div>
@@ -80,11 +84,21 @@
       </section>
       <!-- section two - curve -->
       <section class="curve">
-        <img
-          src="./assets/images/bg-curve-desktop.svg"
-          alt="Svg curve"
-          style="height: auto; width: 100%"
-        />
+        <picture>
+          <source
+            media="(max-width: 375px)"
+            srcset="./assets/images/bg-curve-mobile.svg"
+          />
+          <source
+            media="(min-width: 376px)"
+            srcset="./assets/images/bg-curve-desktop.svg"
+          />
+          <img
+            src="./assets/images/bg-curve-desktop.svg"
+            alt="Svg curve"
+            style="height: auto; width: 100%"
+          />
+        </picture>
       </section>
       <!-- section three - productivity -->
       <section class="productivity">
@@ -148,15 +162,14 @@
               </div>
             </div>
           </div>
-
           <div class="product-col-2">
             <img src="./assets/images/illustration-2.svg" alt="Team image" />
           </div>
         </div>
       </section>
-      <!-- section four -->
+      <!-- section four - access -->
       <section class="access flex-row h-padding">
-        <div class="col">
+        <div class="col access-col-1">
           <h2 class="access-title light-grayish-blue">
             Get early access today
           </h2>
@@ -166,7 +179,7 @@
             would be happy to help you.
           </p>
         </div>
-        <div class="col">
+        <div class="col access-col-2">
           <form id="access-form" class="access-form flex-column">
             <input
               type="email"
@@ -175,7 +188,7 @@
               placeholder="johnappleseed@mail.com"
               autocomplete="off"
             />
-            <span id="access-error" class="error-msg"
+            <span id="access-error" class="error-msg light-gray"
               >Please check your email</span
             >
             <button
@@ -190,11 +203,86 @@
         </div>
       </section>
     </main>
-    <footer></footer>
-    <!-- <div>
-     
-       Phone: +1-543-123-4567
-    example@fylo.com About Us Jobs Press Blog Contact Us Terms Privacy
-  </div> -->
+    <footer class="footer h-padding">
+      <a class="" href="#">
+        <img
+          class="footer-logo"
+          src="./assets/images/footer-logo.svg"
+          alt="Logo"
+        />
+      </a>
+
+      <div class="footer-links">
+        <div class="light-gray box">
+          <a class="flex align-center gap-20" aria-label="Phone number" href="#"
+            ><img src="./assets/images/icon-phone.svg" alt="Phone icon" /><span
+              class="link"
+              >Phone:+1-543-123-4567</span
+            ></a
+          >
+
+          <a
+            class="flex align-center gap-20"
+            aria-label="Email address"
+            href="#"
+            ><img src="./assets/images/icon-email.svg" alt="Email icon" /><span
+              class="link"
+              >example@fylo.com</span
+            ></a
+          >
+        </div>
+        <div class="light-gray box">
+          <a aria-label="Link to About page" href="#"
+            ><span class="link">About Us</span></a
+          >
+          <a aria-label="Link to Jobs page" href="#"
+            ><span class="link">Jobs</span></a
+          >
+          <a aria-label="Link to Press page" href="#"
+            ><span class="link">Press</span></a
+          >
+          <a aria-label="Link to Blog page" href="#"
+            ><span class="link">Blog</span></a
+          >
+        </div>
+        <div class="light-gray box">
+          <a aria-label="Link to Contact page" href="#"
+            ><span class="link">Contact Us</span></a
+          >
+          <a aria-label="Link to Terms page" href="#"
+            ><span class="link">Terms</span></a
+          >
+          <a aria-label="Link to Privacy page" href="#"
+            ><span class="link">Privacy</span></a
+          >
+        </div>
+        <div class="light-gray box">
+          <a aria-label="Link to Facebook profile" href="#"
+            ><div class="social-icon-wrapper">
+              <img
+                class="social-icon icon-center"
+                src="/facebook.svg"
+                alt="facebook icon"
+              /></div
+          ></a>
+          <a aria-label="Link to Twitter profile" href="#"
+            ><div class="social-icon-wrapper">
+              <img
+                class="social-icon"
+                src="/twitter.svg"
+                alt="Twitter icon"
+              /></div
+          ></a>
+          <a aria-label="Link to Instagram profile" href="#"
+            ><div class="social-icon-wrapper">
+              <img
+                class="social-icon"
+                src="/instagram.svg"
+                alt="Instagram icon"
+              /></div
+          ></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
