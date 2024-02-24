@@ -69,6 +69,13 @@
   filter: invert(1);
 }
 
+.social-icon-wrapper:hover,
+.social-icon:hover {
+  border-color: var(--bright-blue);
+  filter: brightness(0) saturate(100%) invert(45%) sepia(71%) saturate(7482%)
+    hue-rotate(222deg) brightness(105%) contrast(94%);
+}
+
 @media only screen and (max-width: 1070px) {
   .footer-logo {
     width: 117px;
