@@ -6,34 +6,34 @@
 
 .product-col-1 {
   width: 52%;
-  min-width: 620px;
+  min-width: 38.75rem;
 }
 
 .product-col-2 {
   width: 48%;
-  min-width: 510px;
-  padding: 0px 0px 42px 73px;
+  min-width: 31.875rem;
+  padding: 0 0 2.625rem 4.563rem;
 }
 
 .product-title {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: var(--very-dark-blue);
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .prod-text-wrapper p:first-child {
-  margin-bottom: 14px;
+  margin-bottom: 0.875rem;
 }
 
 .prod-text-wrapper p:nth-child(2) {
-  margin-bottom: 15px;
+  margin-bottom: 0.938rem;
 }
 
 .product-link-wrapper {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
   border-bottom: 1px solid var(--moderate-cyan);
   width: fit-content;
 }
@@ -48,16 +48,16 @@
 
 .testimonial {
   background-color: #fff;
-  max-width: 355px;
+  max-width: 22.188rem;
   width: 100%;
-  padding: 33px 37px;
+  padding: 2.063rem 2.314rem;
   border-radius: 4px;
-  margin-top: 45px;
+  margin-top: 2.814rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .testimonial-header {
-  padding-bottom: 7px;
+  padding-bottom: 0.5rem;
 }
 
 .testimonial-header > svg {
@@ -66,34 +66,34 @@
 
 .testimonial-body {
   color: var(--very-dark-blue);
-  font-size: 13px;
+  font-size: 0.814rem;
   line-height: 1.8;
 }
 
 .testimonial-footer {
   display: flex;
-  gap: 8px;
-  margin-top: 12px;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
 }
 
 .testimonial-img {
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
 }
 
 /* .avatar-info {
 } */
 
 .avatar-name {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .avatar-role {
-  font-size: 9px;
+  font-size: 0.563rem;
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 90rem) {
   .product-title {
     text-wrap: balance;
   }
@@ -103,7 +103,7 @@
 
   .prod-text-wrapper {
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
 
   .product-link-wrapper {
@@ -112,18 +112,18 @@
 
   .testimonial {
     margin: 0 auto;
-    margin-top: 45px;
+    margin-top: 2.814rem;
     text-align: left;
   }
 
   .product-col-2 {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
   }
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 41.25rem) {
   .product-title {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .testimonial {

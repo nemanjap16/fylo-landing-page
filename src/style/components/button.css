@@ -4,11 +4,11 @@
   background-color: var(--bright-blue);
   color: #fff;
   cursor: pointer;
-  font-size: 14px;
-  width: 200px;
+  font-size: 0.875rem;
+  width: 12.5rem;
   display: grid;
   place-content: center;
-  height: 50px;
+  height: 3.125rem;
 }
 
 .submit-button:hover {

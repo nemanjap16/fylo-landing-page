@@ -2,37 +2,37 @@
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: center;
-  margin-top: 85px;
+  margin-top: 5.313rem;
   height: fit-content;
-  padding-bottom: 220px;
+  padding-bottom: 13.75rem;
 }
 
 .hero-col-1 {
   padding-left: 3px;
   width: 50%;
-  min-width: 620px;
+  min-width: 38.75rem;
 }
 
 .hero-col-2 {
   width: 50%;
-  min-width: 620px;
+  min-width: 38.75rem;
 }
 
 .hero-title {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: var(--very-dark-blue);
-  padding-top: 77px;
-  margin-bottom: 16px;
+  padding-top: 4.814rem;
+  margin-bottom: 1rem;
 }
 
 .hero-text {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .cta-container {
   display: flex;
-  gap: 14px;
+  gap: 0.875rem;
 }
 
 .input-wrapper {
@@ -41,20 +41,20 @@
 }
 
 #hero-input {
-  width: 320px;
-  padding: 0px 20px;
-  height: 50px;
-  font-size: 14px;
+  width: 20rem;
+  padding: 0px 1.25rem;
+  height: 3.125rem;
+  font-size: 0.875rem;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 90rem) {
   .hero {
     text-align: center;
   }
 
   .cta-container {
     display: grid;
-    gap: 20px;
+    gap: 1.25rem;
     grid-template-rows: 2;
     grid-template-columns: 1fr;
   }
@@ -68,9 +68,9 @@
   }
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 41.25rem) {
   .hero {
-    padding-bottom: 120px;
+    padding-bottom: 7.5rem;
   }
 
   .hero-col-1 {
@@ -82,6 +82,6 @@
   }
 
   .hero-title {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 }

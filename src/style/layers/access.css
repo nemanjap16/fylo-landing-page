@@ -1,44 +1,44 @@
 .access {
   background-color: var(--desaturated-blue);
-  padding-top: 100px;
-  padding-bottom: 80px;
+  padding-top: 6.25rem;
+  padding-bottom: 5rem;
 }
 
 .access-col-1 {
-  min-width: 440px;
+  min-width: 2.75rem;
 }
 
 .access-col-2 {
-  min-width: 440px;
+  min-width: 2.75rem;
 }
 
 .access-form {
-  height: 140px;
-  padding: 15px 43px 0px 120px;
+  height: 8.75rem;
+  padding: 0.938rem 2.688rem 0px 7.5rem;
   justify-content: space-between;
 }
 
 #access-input {
-  padding: 0px 20px;
-  height: 50px;
-  font-size: 14px;
+  padding: 0 1.25rem;
+  height: 3.125rem;
+  font-size: 0.875rem;
 }
 
 .access-title {
-  font-size: 32px;
-  margin-bottom: 14px;
+  font-size: 2rem;
+  margin-bottom: 0.875rem;
 }
 
 .access-text {
-  line-height: 26px;
+  line-height: 1.625em;
   width: 80%;
 }
 
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 90rem) {
   .access {
     flex-wrap: wrap;
     width: 100%;
-    gap: 30px;
+    gap: 1.875rem;
   }
 
   .access-col-1 {
@@ -54,7 +54,7 @@
   }
 
   .access-form {
-    padding: 15px 43px 0px 43px;
+    padding: 0.938rem 2.688rem 0 2.688rem;
   }
 }
 
@@ -70,10 +70,10 @@
   }
 
   .access-title {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .access-text {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
